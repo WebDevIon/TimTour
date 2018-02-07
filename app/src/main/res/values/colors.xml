@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#009587</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#00786A</color>
+
+    <!-- Background color for all categories in the app -->
+    <color name="items_background">#fcfcef</color>
+
+    <!-- Text color for all the categories -->
+    <color name="text_color">#202020</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/list_item_image"
+        style="@style/image"
+        tools:src="@drawable/muzeul_catedralei"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/text_container"
+        tools:background="@color/items_background">
+
+            <TextView
+                android:id="@+id/name_text_view"
+                style="@style/primary_text"
+                tools:text="@string/cathedral_museum_name"/>
+            <TextView
+                android:id="@+id/working_hours_text_view"
+                style="@style/secondary_text"
+                tools:text="@string/cathedral_museum_program"/>
+
+            <TextView
+                android:id="@+id/address_text_view"
+                style="@style/secondary_text"
+                tools:text="@string/cathedral_museum_address"/>
+
+            <TextView
+                android:id="@+id/rating_text_view"
+                style="@style/secondary_text"
+                android:drawableLeft="@drawable/ic_star_rate_black_18dp"
+                tools:text="@string/amphora_rating"/>
+
+    </LinearLayout>
+
+</LinearLayout>

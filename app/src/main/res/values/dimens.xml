@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each category list item -->
+    <dimen name="category_list_item_height">88dp</dimen>
+    <!-- Height of each list item -->
+    <dimen name="list_item_height">128dp</dimen>
+    <!-- Height of the primary text -->
+    <dimen name="primary_text_height">20sp</dimen>
+    <!-- Height of the secondary text -->
+    <dimen name="secondary_text_height">14sp</dimen>
+    <!-- Height of the image -->
+    <dimen name="image_height">128dp</dimen>
+    <!-- Width of the image -->
+    <dimen name="image_width">128dp</dimen>
+    <!-- Horizontal padding -->
+    <dimen name="horizontal_padding">16dp</dimen>
+    <!-- Vertical padding -->
+    <dimen name="vertical_padding">16dp</dimen>
+    <!-- Separator thickness -->
+    <dimen name="separator_thickness">1dp</dimen>
+</resources>

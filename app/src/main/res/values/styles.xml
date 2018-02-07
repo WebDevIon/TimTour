@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Category list style. -->
+    <style name="category_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/category_list_item_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/primary_text_height</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Primary text style. -->
+    <style name="primary_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/primary_text_height</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!-- Secondary text style. -->
+    <style name="secondary_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/secondary_text_height</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <!-- List image style. -->
+    <style name="image">
+        <item name="android:layout_width">@dimen/image_width</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!-- List text container area style. -->
+    <style name="text_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_item_height</item>
+        <item name="android:padding">@dimen/horizontal_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Category items separator style. -->
+    <style name="category_separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/separator_thickness</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+</resources>
